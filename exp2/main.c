@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include"syntax.tab.h"
 #include"tree.h"
+#include"SemanticAnalysis.h"
 extern FILE* yyin;
 extern int yylex(void);
 struct Tree * AST;
+
 int errorFlag;
 
 int main(int argc, char** argv)
@@ -26,10 +28,11 @@ int main(int argc, char** argv)
     }
     yyrestart(f);
     yyparse();
+    Program(AST);
     /*print the AST result*/
     if (!errorFlag)
     {
-        ShowTree(AST, 0);
+        // ShowTree(AST, 0);
     }
     
     return 0;

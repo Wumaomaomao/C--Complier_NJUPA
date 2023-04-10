@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -std=c99
 
 parser: syntax.tab.c tree.c main.c tree.c
-	$(CC) main.c syntax.tab.c tree.c -lfl -ly -o parser
+	$(CC) main.c syntax.tab.c tree.c SemanticAnalysis.c -lfl -ly -o parser
 syntax.tab.c:syntax.y lex.yy.c
 	bison -d syntax.y
 lex.yy.c:lexical.l
