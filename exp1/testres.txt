@@ -1,0 +1,84 @@
+Error type A at Line 1: Mysterious characters '#'
+token name: ID, attribute: include
+token name: RELOP, attribute: <
+token name: ID, attribute: stdio
+token name: DOT
+token name: ID, attribute: h
+token name: RELOP, attribute: >
+token name: ID, attribute: extern
+token name: ID, attribute: FILE
+token name: STAR
+token name: ID, attribute: yyin
+token name: SEMI
+token name: ID, attribute: extern
+token name: TYPE, attribute: int
+token name: ID, attribute: yylex
+token name: LP
+token name: ID, attribute: void
+token name: RP
+token name: SEMI
+token name: TYPE, attribute: int
+token name: ID, attribute: main
+token name: LP
+token name: TYPE, attribute: int
+token name: ID, attribute: argc
+token name: COMMA
+token name: ID, attribute: char
+token name: STAR
+token name: STAR
+token name: ID, attribute: argv
+token name: RP
+token name: LC
+token name: IF
+token name: LP
+token name: ID, attribute: argc
+token name: RELOP, attribute: >
+token name: DEC, attribute: 1
+token name: RP
+token name: LC
+token name: IF
+token name: LP
+token name: NOT
+token name: LP
+token name: ID, attribute: yyin
+token name: ASSIGNOP
+token name: ID, attribute: fopen
+token name: LP
+token name: ID, attribute: argv
+token name: LB
+token name: DEC, attribute: 1
+token name: RB
+token name: COMMA
+Error type A at Line 8: Mysterious characters '"'
+token name: ID, attribute: r
+Error type A at Line 8: Mysterious characters '"'
+token name: RP
+token name: RP
+token name: RP
+token name: LC
+token name: ID, attribute: perror
+token name: LP
+token name: ID, attribute: argv
+token name: LB
+token name: DEC, attribute: 1
+token name: RB
+token name: RP
+token name: SEMI
+token name: RETURN
+token name: DEC, attribute: 1
+token name: SEMI
+token name: RC
+token name: RC
+token name: WHILE
+token name: LP
+token name: ID, attribute: yylex
+token name: LP
+token name: RP
+token name: RELOP, attribute: !=
+token name: OCT, attribute: 0
+token name: RP
+token name: SEMI
+token name: RETURN
+token name: OCT, attribute: 0
+token name: SEMI
+token name: RC
